@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'cool_font';
+    src: url('Barlow-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "cool_font";
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 400%;
+    font-weight: 500%;
+}
+
+.bg-image {
+    background-image: url("assets/background.jpg");
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    background-repeat: no-repeat;
+    }
+
+/* --------------------------------- */
+/* navbar */
+
+#navbar {
+    z-index: 2;
+    list-style-type: none;
+    margin: 1%;
+    padding: 0.1%;
+    overflow: hidden;
+    width:97vw;
+    border-radius: 20px;
+    background-color: rgba(62,92,118, 1);
+    position:fixed;
+
+}
+
+.navbarItem {
+    float: right;
+    font-size: large;
+    background-color: rgba(62,92,118, 0);
+}
+
+.navbarItemText {
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    background-color: rgba(62,92,118, 0);
+    color:#F0EBD8;
+}
+
+.navbarItemText:hover {
+    text-decoration: underline;
+    border-color: #F0EBD8;
+    background-color: rgba(62,92,118, 0);
+}
+
+#navName{
+    font-weight: bold;
+    font-size: x-large;
+    display: block;
+    color:#F0EBD8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgba(62,92,118, 0);
+}
+
+/* --------------------------------- */
+/* Project Cards */ 
+
+.cardContainer{
+    width: 100vw;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+    padding-bottom: 200px;
+}
+
+.card{
+    margin-left:10vw;
+    margin-right:10vw;
+    margin-bottom: 100px;
+    background-color: rgba(200,200,200,.7);
+    border-radius: 25px; 
+    width: 60vw;
+    height: 70vh;
+    transition: transform 0.25s;
+    min-width: 1200px;
+}
+
+.card:hover{
+    transform: scale(1.075);
+    box-shadow: 5px 8px rgba(120,120,120,.4);
+}
+
+.cardImage{
+    /* float: left; */
+    margin-top: 10%;
+    height:450px;
+    width: 450px;
+    border-radius: 50px;
+}
+
+.cardBodyText{
+    font-size: 150%;
+}
+
+.cardText{
+    max-width:450px;
+    /* float:right; */
+}
+
+.fr{
+    float:right;
+    margin: 5vw;
+}
+
+.fl{
+    float:left;
+    margin-left:5%;
+}
+/* --------------------------------- */
+/* About Me */
+
+#aboutMeImage{
+    float: right;
+    width:150px;
+    height:150px;
+    border-radius: 100%;
+}
+
+#aboutMe{
+    width: 60vw;
+    margin-top: 20vh;
+    margin-left: 20vw;
+    margin-bottom: 10vh;
+}
+
+#aboutMeText{
+    width:50vw;
+    font-size: 150%;
+    line-height: 1.5;
+}
+
+.sourceLink {
+    padding:7px;
+    background-color: rgba(120,120,120,0.4);
+    border-radius:10%;
+    font-weight: bold;
+    transition: transform 0.25s;
+}
+
+.sourceLink:hover{
+    background-color: rgba(255,255,255,0.4);
+    transform: scale(1.075);
+}
+
+/* --------------------------------- */
