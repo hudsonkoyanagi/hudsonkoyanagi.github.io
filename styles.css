@@ -88,19 +88,19 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;    
+
     padding-bottom: 200px;
 }
 
 .card{
-    margin-left:10vw;
-    margin-right:10vw;
-    margin-bottom: 100px;
     background-color: rgba(200,200,200,.7);
     border-radius: 25px; 
     width: 60vw;
     height: 70vh;
     transition: transform 0.25s;
     min-width: 1200px;
+
+    margin-bottom: 10%;
 }
 
 .card:hover{
@@ -109,30 +109,32 @@ h1 {
 }
 
 .cardImage{
-    /* float: left; */
-    margin-top: 10%;
-    height:450px;
-    width: 450px;
+    /* height:450px;
+    width: 450px; */
+    height:50vh;
+    width:50vh;
     border-radius: 50px;
-}
-
-.cardBodyText{
-    font-size: 150%;
+    margin-top: 5vh;
 }
 
 .cardText{
     max-width:450px;
-    /* float:right; */
+    margin-top: 5vh;
+}
+
+.cardBodyText{
+    font-size: 150%;
+    line-height: 1.5;
 }
 
 .fr{
     float:right;
-    margin: 5vw;
+    margin-right: 10vh;
 }
 
 .fl{
     float:left;
-    margin-left:5%;
+    margin-left: 10vh;
 }
 /* --------------------------------- */
 /* About Me */
