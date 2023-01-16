@@ -255,7 +255,6 @@ a:visited, a:hover, a:active {
     .navbarNameText{
         text-decoration: none;
         background-color: rgba(0,0,0,0);
-        color:black;
     }
 
     #navbutton{
