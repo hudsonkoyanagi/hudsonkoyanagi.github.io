@@ -212,6 +212,7 @@ h2 {
 
 .contactLinks{
     background-color: rgba(0,0,0,0);
+    color: inherit;
 }
 a:visited, a:hover, a:active {
     color: inherit;
